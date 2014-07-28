@@ -1,3 +1,5 @@
+#----------------
+#戦術機製造産業(貨物)
 Jumping_Unit(TSF_Parts)
 跳躍ユニット(戦術機部品)
 Arm_Unit(TSF_Parts)
@@ -6,3 +8,5 @@ Reg_Unit(TSF_Parts)
 脚部ユニット(戦術機部品)
 Head_Unit(TSF_Parts)
 頭部ユニット(戦術機部品)
+#----------------
+#戦術機製造産業(建物)
