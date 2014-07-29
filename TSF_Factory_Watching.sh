@@ -6,5 +6,5 @@ while inotifywait -e modify -e create -e delete -r ./ ; do
     Today=`date +"%y/%m/%d %H:%I:%S"`;
     git commit -m "Update for $Today" ;
     git push github master ;
-    ##
+
 done
