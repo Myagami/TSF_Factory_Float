@@ -7,7 +7,7 @@ while inotifywait -e modify -e create -e delete -r ./ ; do
     Today='';
     Today=`date +"%y/%m/%d %T"`;
     #commit
-    git commit -m "Update for $Today" -a ;
+    git commit -m "Update for $Today" -a  ;
     #to github
     git push github Devel ;
 done
