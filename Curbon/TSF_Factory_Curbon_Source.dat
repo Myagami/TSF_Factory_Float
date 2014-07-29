@@ -1,0 +1,11 @@
+Obj=building
+Name=test_1
+Type=cur
+Passengers=100
+intro_year=1900
+chance=100
+dims=2,2,1
+BackImage[0][0][0][0][0][0]=TSF_Factory_Curbon_Source.0.0
+BackImage[0][0][1][0][0][0]=TSF_Factory_Curbon_Source.0.1
+BackImage[0][1][0][0][0][0]=TSF_Factory_Curbon_Source.1.0
+BackImage[0][1][1][0][0][0]=TSF_Factory_Curbon_Source.1.1
