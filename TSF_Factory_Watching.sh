@@ -1,7 +1,7 @@
 #!/bin/sh
 while inotifywait -e modify -e create -e delete -r ./ ; do
     Today_Tag='';
-    Today_Tag=`date +"%y/%m/%d"`;
+    Today_Tag=`date +"%y\/%m\/%d"`;
     git add * ;
     Today='';
     Today=`date +"%y/%m/%d %T"`;
