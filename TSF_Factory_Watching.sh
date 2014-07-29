@@ -1,4 +1,5 @@
 #!/bin/sh
+
 while inotifywait -e modify -e create -e delete -r ./ ; do
     #追加ファイルを確認
     git add * ;
