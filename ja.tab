@@ -8,5 +8,7 @@ Reg_Unit(TSF_Parts)
 脚部ユニット(戦術機部品)
 Head_Unit(TSF_Parts)
 頭部ユニット(戦術機部品)
+Engine_Unit(TSF_Parts)
+主機(戦術機部品)
 #----------------
 #戦術機製造産業(建物)
