@@ -1,5 +1,5 @@
 #!/bin/sh
-Today_Tag="date +"%y/%m/%d";
+Today_Tag=`date +"%y/%m/%d"`;
 while inotifywait -e modify -e create -e delete -r ./ ; do
     git add * ;
     Today='';
