@@ -12,6 +12,3 @@ while inotifywait -e modify,create,delete -r ./ ; do
     git push github Devel ;
 done
 
-while inotifywait -e modify,create,delete -r ./goods/ ; do
-    makeobj pak ./
-done
