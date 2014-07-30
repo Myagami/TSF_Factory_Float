@@ -12,3 +12,5 @@ Engine_Part(TSF_Parts)
 主機(戦術機 本体部品)
 #----------------
 #戦術機製造産業(建物)
+TSF_Factory_ButtleTool
+戦術機武装(戦術機製造産業)
