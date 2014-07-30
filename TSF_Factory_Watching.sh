@@ -1,6 +1,6 @@
 #!/bin/sh
 
-while inotifywait -e modify -e create -e delete -r ./ ; do
+while inotifywait -e modify,create,delete -r ./ ; do
     #追加ファイルを確認
     git add * ;
     #今日の日付
