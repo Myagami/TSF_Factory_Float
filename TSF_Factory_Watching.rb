@@ -1,5 +1,5 @@
 #!/usr/bin/ruby
 
-require 'INotify' 
+require 'INotify::Notifier' 
 
 notifier = INotify::Notifier.new
