@@ -1,5 +1,5 @@
 #!/bin/sh
-
+## 全体のモニター
 while inotifywait -e modify,create,delete -r ./ ; do
     #追加ファイルを確認
     git add * ;
@@ -10,4 +10,8 @@ while inotifywait -e modify,create,delete -r ./ ; do
     git commit -m "Update for $Today" -a  ;
     #to github
     git push github Devel ;
+done
+
+while inotifywait -e modify,create,delete -r ./goods/ ; do
+    makeobj pak ./
 done
