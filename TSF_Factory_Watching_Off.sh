@@ -9,6 +9,6 @@ while inotifywait -e modify,create,delete -r ./ ; do
     #commit
     git commit -m "Update for $Today" -a  ;
     #to github
-    git push github Devel ;
+    #git push github Devel ;
 done
 
