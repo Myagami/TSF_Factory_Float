@@ -4,7 +4,6 @@ Type=cur
 Passengers=100
 intro_year=1970
 chance=100
-dims=2,3,1
 dims=4,2,1
 BackImage[0][0][0][0][0][0]=Japan_Imperial_TSF_Command_Hunger_Source.0.0
 BackImage[0][0][1][0][0][0]=Japan_Imperial_TSF_Command_Hunger_Source.0.1
