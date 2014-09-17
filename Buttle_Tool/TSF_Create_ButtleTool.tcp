@@ -2,7 +2,7 @@
     "comment": "This is a TileCutter Project file (JSON formatted). You may edit it by hand if you are careful.", 
     "data": {
         "dat": {
-            "dat_lump": "Obj=building\nName=TSF_Factory_Curbon\nType=cur\nPassengers=100\nintro_year=1970\nchance=100\ndims=2,3,1"
+            "dat_lump": "Obj=building\nName=TSF_Factory_ButtleTool\nType=cur\nPassengers=100\nintro_year=1970\nchance=100\ndims=2,3,1"
         }, 
         "dims": {
             "directions": 1, 
@@ -15,10 +15,10 @@
             "z": 1
         }, 
         "files": {
-            "datfile_location": "TSF_Factory_Curbon_Source.dat", 
+            "datfile_location": "TSF_Factory_ButtleTool_Source.dat", 
             "datfile_write": true, 
             "pakfile_location": "", 
-            "pngfile_location": "TSF_Factory_Curbon_Source.png"
+            "pngfile_location": "TSF_Factory_ButtleTool_Source.png"
         }, 
         "images": [
             [
@@ -29,7 +29,7 @@
                                 0, 
                                 0
                             ], 
-                            "path": "TSF_Factory_Curbon.png"
+                            "path": "TSF_Factory_ButtleTool.png"
                         }, 
                         {
                             "offset": [
