@@ -15,10 +15,10 @@
             "z": 1
         }, 
         "files": {
-            "datfile_location": "Imperial_Royal_Guard_Hunger_Source.dat", 
+            "datfile_location": "TSF_Factory_Curbon_Source.dat", 
             "datfile_write": true, 
             "pakfile_location": "", 
-            "pngfile_location": "Imperial_Royal_Guard_Hunger_Source.png"
+            "pngfile_location": "TSF_Factory_Curbon_Source.dat"
         }, 
         "images": [
             [
