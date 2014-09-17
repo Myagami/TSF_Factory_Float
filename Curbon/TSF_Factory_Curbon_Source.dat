@@ -1,9 +1,10 @@
 Obj=building
-Name=Curbon_Factory
+Name=TSF_Factory_Curbon
 Type=cur
 Passengers=100
-intro_year=1900
+intro_year=1970
 chance=100
+dims=2,3,1
 dims=2,2,1
 BackImage[0][0][0][0][0][0]=TSF_Factory_Curbon_Source.0.0
 BackImage[0][0][1][0][0][0]=TSF_Factory_Curbon_Source.0.1
