@@ -2,7 +2,7 @@
     "comment": "This is a TileCutter Project file (JSON formatted). You may edit it by hand if you are careful.", 
     "data": {
         "dat": {
-            "dat_lump": "Obj=factory\nname=TSF_Factory_Main_Unit\nLocation=Land\nDistributionWeight=1\nProductivity=3\nRange=10\n#InputGood[0]=Engine_Unit(TSF_Parts)\n#InputCapacity[0]=200\nOutputGood[0]=Arm_Unit(TSF_Parts)\nOutputCapacity[0]=200\n#OutputGood[1]=Head_Unit(TSF_Parts)\n#OutputCapacity[1]=200\n#OutputGood[2]=Jamping_Unit(TSF_Parts)\n#OutputCapacity[2]=200\n#OutputGood[3]=Reg_Unit(TSF_Parts)\n#OutputCapacity[3]=200"
+            "dat_lump": "Obj=factory\nname=TSF_Factory_Main_Unit\nLocation=Land\nDistributionWeight=1\nProductivity=3\nRange=10\nMapcolor=34\n#InputGood[0]=Engine_Unit(TSF_Parts)\n#InputCapacity[0]=200\nOutputGood[0]=Arm_Unit(TSF_Parts)\nOutputCapacity[0]=200\n#OutputGood[1]=Head_Unit(TSF_Parts)\n#OutputCapacity[1]=200\n#OutputGood[2]=Jamping_Unit(TSF_Parts)\n#OutputCapacity[2]=200\n#OutputGood[3]=Reg_Unit(TSF_Parts)\n#OutputCapacity[3]=200"
         }, 
         "dims": {
             "directions": 1, 
