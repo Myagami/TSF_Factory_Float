@@ -2,7 +2,7 @@
     "comment": "This is a TileCutter Project file (JSON formatted). You may edit it by hand if you are careful.", 
     "data": {
         "dat": {
-            "dat_lump": "Obj=factory\nName=Imperial_Royal_Guard_Hunger\nLocation=Land\nDistributionWeight=1\nProductivity=3\nRange=10\nMapcolor=34\nchance=100\nInputGood[0]=Arm_Unit(TSF_Parts)\nInputCapacity[0]=500\nInputFactor[0]=20\nInputGood[1]=Head_Unit(TSF_Parts)\nInputCapacity[1]=500\nInputFactor[1]=20\nInputGood[2]=Jamping_Unit(TSF_Parts)\nInputCapacity[2]=500\nInputFactor[2]=20\nInputGood[3]=Reg_Unit(TSF_Parts)\nInputCapacity[3]=500\nInputFactor[3]=20\nInputGood[4]=Engine_Unit(TSF_Parts)\nInputCapacity[4]=500\nInputFactor[4]=20"
+            "dat_lump": "Obj=factory\nName=Imperial_Royal_Guard_Hunger\nLocation=Land\nDistributionWeight=1\nProductivity=3\nRange=10\nMapcolor=34\nchance=100\nInputGood[0]=Arm_Unit(TSF_Parts)\nInputCapacity[0]=500\nInputFactor[0]=50\nInputGood[1]=Head_Unit(TSF_Parts)\nInputCapacity[1]=500\nInputFactor[1]=50\nInputGood[2]=Jamping_Unit(TSF_Parts)\nInputCapacity[2]=500\nInputFactor[2]=50\nInputGood[3]=Reg_Unit(TSF_Parts)\nInputCapacity[3]=500\nInputFactor[3]=50\nInputGood[4]=Engine_Unit(TSF_Parts)\nInputCapacity[4]=500\nInputFactor[4]=50"
         }, 
         "dims": {
             "directions": 1, 
