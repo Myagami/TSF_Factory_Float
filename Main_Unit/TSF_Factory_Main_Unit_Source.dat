@@ -1,9 +1,9 @@
 Obj=factory
-Name=TSF_Factory_Main_Unit
-Type=cur
-Passengers=100
-intro_year=1970
-chance=100
+name=TSF_Factory_Main_Unit
+Location=Land
+DistributionWeight=1
+Productivity=3
+Range=10
 InputGood[0]=Engine_Unit(TSF_Parts)
 InputCapacity[0]=200
 OutputGood[0]=Arm_Unit(TSF_Parts)
