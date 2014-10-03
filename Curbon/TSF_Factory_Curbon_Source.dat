@@ -1,8 +1,10 @@
 Obj=factory
 Name=TSF_Factory_Curbon
-Type=cur
-Passengers=100
-intro_year=1970
+Location=Land
+DistributionWeight=1
+Productivity=3
+Range=10
+Mapcolor=34
 chance=100
 OutputGood[0]=Curbon(TSF_Factory)
 OutputCapacity[0]=200
