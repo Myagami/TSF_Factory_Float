@@ -2,7 +2,7 @@
     "comment": "This is a TileCutter Project file (JSON formatted). You may edit it by hand if you are careful.", 
     "data": {
         "dat": {
-            "dat_lump": "Obj=factory\nname=TSF_Factory_Main_Unit\nLocation=Land\nDistributionWeight=1\nProductivity=1000\nMapcolor=34\nInputGood[0]=Curbon(TSF_Parts)\nInputCapacity[0]=4000\nInputFactor[0]=400\nOutputGood[0]=Arm_Unit(TSF_Parts)\nOutputCapacity[0]=500\nOutputFactor[0]=20\nOutputGood[1]=Head_Unit(TSF_Parts)\nOutputCapacity[1]=500\nOutputFactor[1]=20\nOutputGood[2]=Jamping_Unit(TSF_Parts)\nOutputCapacity[2]=500\nOutputFactor[2]=20\nOutputGood[3]=Reg_Unit(TSF_Parts)\nOutputCapacity[3]=500\nOutputFactor[3]=20\nOutputGood[4]=Engine_Unit(TSF_Parts)\nOutputCapacity[4]=500\nOutputFactor[4]=20"
+            "dat_lump": "Obj=factory\nname=TSF_Factory_Main_Unit\nLocation=Land\nDistributionWeight=1\nProductivity=1000\nMapcolor=34\nInputGood[0]=Curbon(TSF_Parts)\nInputCapacity[0]=4000\nInputFactor[0]=400\nOutputGood[0]=Arm_Unit(TSF_Parts)\nOutputCapacity[0]=500\nOutputFactor[0]=40\nOutputGood[1]=Head_Unit(TSF_Parts)\nOutputCapacity[1]=500\nOutputFactor[1]=10\nOutputGood[2]=Jamping_Unit(TSF_Parts)\nOutputCapacity[2]=500\nOutputFactor[2]=10\nOutputGood[3]=Reg_Unit(TSF_Parts)\nOutputCapacity[3]=500\nOutputFactor[3]=30\nOutputGood[4]=Engine_Unit(TSF_Parts)\nOutputCapacity[4]=500\nOutputFactor[4]=10"
         }, 
         "dims": {
             "directions": 1, 
