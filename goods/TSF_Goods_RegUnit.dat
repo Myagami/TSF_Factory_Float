@@ -1,5 +1,5 @@
 obj=good
-name=Reg_Unit(TSF_Parts)
+name=Reg_Unit(TSF_Part)s
 metric=paletten
 catg=1
 value=120
