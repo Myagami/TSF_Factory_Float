@@ -2,7 +2,7 @@
     "comment": "This is a TileCutter Project file (JSON formatted). You may edit it by hand if you are careful.", 
     "data": {
         "dat": {
-            "dat_lump": "Obj=building\nName=TSF_Factory_Main_Unit\nType=cur\nPassengers=100\nintro_year=1970\nchance=100"
+            "dat_lump": "Obj=building\nName=TSF_Factory_Main_Unit\nType=cur\nPassengers=100\nintro_year=1970\nchance=100\nInputGood[0]=Curbon(TSF_Factory)\nInputCapacity[0]=200"
         }, 
         "dims": {
             "directions": 1, 
