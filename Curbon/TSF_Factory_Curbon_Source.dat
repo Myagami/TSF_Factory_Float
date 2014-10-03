@@ -4,7 +4,8 @@ Type=cur
 Passengers=100
 intro_year=1970
 chance=100
-
+OutputGood[0]=Curbon(TSF_Factory)
+OutputCapacity[0]=200
 dims=3,3,1
 BackImage[0][0][0][0][0][0]=TSF_Factory_Curbon_Source.0.0
 BackImage[0][0][1][0][0][0]=TSF_Factory_Curbon_Source.0.1
