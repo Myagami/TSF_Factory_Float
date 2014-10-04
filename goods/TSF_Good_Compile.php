@@ -6,7 +6,7 @@ $csv = file("TSF_Goods_Index.csv") ;
 //Index
 $Index = array_shift($csv) ;
 $Index = explode(",",$Index) ;
-$Index[10] = str_replace(array("\r\n","\n","\r"), '', $Index[10]) ;
+$Index[8] = str_replace(array("\r\n","\n","\r"), '', $Index[8]) ;
 //Output
 foreach($csv as $dat){
 	//キーを割り振る
