@@ -17,7 +17,7 @@ foreach($csv as $dat){
 		//$fh = fopen("TSF_Goods_".$C_dat["name"].pak,"w");
 		print_r($C_dat) ;
 		foreach($C_dat as $key => $val){
-			
+			echo $key ."=".$val."\n" ;
 		}
 
 		//fclose($fh) ;
