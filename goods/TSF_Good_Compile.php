@@ -6,7 +6,7 @@ $csv = file("TSF_Goods_Index.csv") ;
 //Index
 $Index = array_shift($csv) ;
 $Index = explode(",",$Index) ;
-$Index[9] = str_replace(array("\r\n","\n","\r"), '', $Index[9]) ;
+$Index[10] = str_replace(array("\r\n","\n","\r"), '', $Index[10]) ;
 //Output
 foreach($csv as $dat){
 	//キーを割り振る
@@ -14,7 +14,7 @@ foreach($csv as $dat){
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
 	if($C_dat["flug"] == 1 ){
-		//$fh = ;
+		//$fh = fopeen("","w");
 		print_r($C_dat) ;
 	}
 }
