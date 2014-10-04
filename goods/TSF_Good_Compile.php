@@ -1,6 +1,6 @@
 #!/usr/bin/php
 <?php
-$csv = file("TSF_Goods_Index.csv") ;
+$csv = file_get_contents("TSF_Goods_Index.csv") ;
 
 print_r($csv) ;
 
