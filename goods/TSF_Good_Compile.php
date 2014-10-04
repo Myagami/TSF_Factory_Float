@@ -27,6 +27,5 @@ foreach($csv as $dat){
 		fclose($fh) ;
 		system("makeobj pak {$p_file} {$d_file}",$res ) ;
 	}
-	system('cp \*.pak /home/hayate/simutrans/addons/pak.dev/') ;
 }
 ?>
