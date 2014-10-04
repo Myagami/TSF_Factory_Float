@@ -3,7 +3,7 @@ good,Arm_Unit,(TSF_Parts),paletten,1,120,450,20,1,40000,0
 good,Curbon,(TSF_Parts),paletten,1,120,450,20,1,40000,0
 good,Engine_Unit,(TSF_Parts),paletten,1,120,450,20,1,40000,1
 good,Head_Unit,(TSF_Parts),paletten,1,120,450,20,1,40000,0
-good,Jumping_Unit,(TSF_Parts),paletten,1,120,450,20,1,40000,0
+good,Jumping_Unit,(TSF_Parts),paletten,1,120,450,20,1,40000,1
 good,LongSword,(TSF_Tool),paletten,1,120,450,20,1,40000,0
 good,Reg_Unit,(TSF_Parts),paletten,1,120,450,20,1,40000,0
 good,ShortSword,(TSF_Tool),paletten,1,120,450,20,1,40000,0
