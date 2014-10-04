@@ -12,7 +12,9 @@ foreach($csv as $dat){
 	//キーを割り振る
 	$dat = explode(",",$dat) ;
 	$C_dat = array_combine($Index,$dat) ;
-
-	print_r($C_dat) ;
+	//出力判定
+	if($C_dat === 1){
+		print_r($C_dat) ;
+		}
 }
 ?>
