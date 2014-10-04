@@ -26,8 +26,6 @@ foreach($csv as $dat){
 		}
 		fclose($fh) ;
 		system("makeobj pak {$p_file} {$d_file}",$res ) ;
-	}else{
-		echo "Action not found.\n" ;
 	}
 }
 ?>
