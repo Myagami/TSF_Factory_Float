@@ -14,8 +14,10 @@ foreach($csv as $dat){
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
 	if($C_dat["flug"] == 1 ){
-		//$fh = fopeen("","w");
+		//$fh = fopen("TSF_Goods_".$C_dat["name"].pak,"w");
 		print_r($C_dat) ;
+
+		//fclose($fh) ;
 	}
 }
 ?>
