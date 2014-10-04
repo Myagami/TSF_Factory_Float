@@ -4,7 +4,12 @@ Type=cur
 Passengers=100
 intro_year=1970
 chance=100
-
+#in
+InputGood[0]=Stahl
+InputCapacity[0]=800
+#out
+OutputGood[0]=Curbon(TSF_Parts)
+OutputCapacity[0]=3000
 dims=6,4,1
 BackImage[0][0][0][0][0][0]=TSF_Factory_ButtleTool_Source.0.0
 BackImage[0][0][1][0][0][0]=TSF_Factory_ButtleTool_Source.0.1
