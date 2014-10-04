@@ -22,7 +22,6 @@ foreach($csv as $dat){
 		foreach($C_dat as $key => $val){
 			fwrite("{$key}={$val}\n",$fh) ;
 		}
-
 		fclose($fh) ;
 	}
 }
