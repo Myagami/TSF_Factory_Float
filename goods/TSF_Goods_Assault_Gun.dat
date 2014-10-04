@@ -1,0 +1,7 @@
+obj=good
+name=Assault_Gun(TSF_Tool)
+metric=paletten
+catg=2
+value=180
+weight_per_unit=500
+speed_bonus=5
