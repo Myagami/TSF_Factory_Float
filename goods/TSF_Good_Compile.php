@@ -13,7 +13,7 @@ foreach($csv as $dat){
 	$dat = explode(",",$dat) ;
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
-	if($C_dat["flug"] == 1 ){
+	if($C_dat["flug"] == 1 ){//出力
 		$d_file = "TSF_Goods_".$C_dat["name"].".dat" ;
 		$p_file = "TSF_Goods_".$C_dat["name"].".pak" ;
 		$fh = fopen($d_file,"w");
