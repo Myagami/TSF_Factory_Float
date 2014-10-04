@@ -9,7 +9,8 @@ InputGood[0]=Stahl
 InputCapacity[0]=800
 #out
 #OutputGood[0]=Curbon(TSF_Parts)
-#OutputCapacity[0]=300
+#
+OutputCapacity[0]=300
 dims=6,4,1
 BackImage[0][0][0][0][0][0]=TSF_Factory_ButtleTool_Source.0.0
 BackImage[0][0][1][0][0][0]=TSF_Factory_ButtleTool_Source.0.1
