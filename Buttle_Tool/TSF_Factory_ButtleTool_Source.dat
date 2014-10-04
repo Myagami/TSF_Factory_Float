@@ -1,5 +1,5 @@
-Obj=Factory
-Name=TSF_Factory_ButtleTool
+Obj=factory
+name=TSF_Factory_Buttle_Tool
 Location=Land
 DistributionWeight=1
 Productivity=1000
