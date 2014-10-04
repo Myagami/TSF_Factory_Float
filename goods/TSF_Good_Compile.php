@@ -18,6 +18,7 @@ foreach($csv as $dat){
 		print_r($C_dat) ;
 		$C_dat["name"] .= $C_dat["Pos"] ;
 		unset($C_dat["Pos"]) ;
+		unset($C_dat["flug"]) ;
 		foreach($C_dat as $key => $val){
 			echo $key ."=".$val."\n" ;
 		}
