@@ -13,7 +13,7 @@ foreach($csv as $dat){
 	$dat = explode(",",$dat) ;
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
-	if(isset($C_dat["flug"])){
+	if($C_dat["flug"] == 0 ){
 		print_r($C_dat) ;
 	}
 }
