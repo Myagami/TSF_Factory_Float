@@ -6,7 +6,6 @@ $csv = file("TSF_Goods_Index.csv") ;
 //Index
 $Index = array_shift($csv) ;
 $Index = explode(",",$Index) ;
-//print_r($csv) ;
 
 //Output
 foreach($csv as $dat){
