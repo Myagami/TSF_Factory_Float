@@ -1,0 +1,9 @@
+obj=good
+name=Engine_Unit(TSF_Parts)
+metric=paletten
+catg=1
+value=120
+weight_per_unit=450
+speed_bonus=20
+DistributtonWeight=1
+Productivity=40000
