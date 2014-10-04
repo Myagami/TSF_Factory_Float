@@ -14,7 +14,9 @@ foreach($csv as $dat){
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
 	if($C_dat["flug"] == 1 ){
-		$fh = fopen("TSF_Goods_".$C_dat["name"].".dat","w");
+		$d_file = "TSF_Goods_".$C_dat["name"].".dat" ;
+		$p_file = "TSF_Goods_".$C_dat["name"].".dat" ;
+		$fh = fopen($d_file,"w");
 		print_r($C_dat) ;
 		$C_dat["name"] .= $C_dat["Pos"] ;
 		unset($C_dat["Pos"]) ;
@@ -23,6 +25,7 @@ foreach($csv as $dat){
 			fwrite($fh,"{$key}={$val}\n") ;
 		}
 		fclose($fh) ;
+		system('makeobj pak {$d_file},' ) ;
 	}
 }
 ?>
