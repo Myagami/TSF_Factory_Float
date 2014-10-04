@@ -1,0 +1,7 @@
+obj=good
+name=ShortSword(TSF_Tool)
+metric=paletten
+catg=1
+value=180
+weight_per_unit=70
+speed_bonus=4
