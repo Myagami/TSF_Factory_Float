@@ -1,9 +1,9 @@
 Obj=Factory
 Name=TSF_Factory_ButtleTool
-Type=cur
-Passengers=100
-intro_year=1970
-chance=100
+Location=Land
+DistributionWeight=1
+Productivity=1000
+Mapcolor=34
 #in
 InputGood[0]=Stahl
 InputCapacity[0]=800
