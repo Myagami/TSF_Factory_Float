@@ -20,7 +20,7 @@ foreach($csv as $dat){
 		unset($C_dat["Pos"]) ;
 		unset($C_dat["flug"]) ;
 		foreach($C_dat as $key => $val){
-			fwrite("{$key}={$val}\n",$fh) ;
+			fwrite($fh,"{$key}={$val}\n") ;
 		}
 		fclose($fh) ;
 	}
