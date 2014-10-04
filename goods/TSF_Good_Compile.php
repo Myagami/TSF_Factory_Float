@@ -17,7 +17,7 @@ foreach($csv as $dat){
 		$d_file = "TSF_Goods_".$C_dat["name"].".dat" ;
 		$p_file = "TSF_Goods_".$C_dat["name"].".pak" ;
 		$fh = fopen($d_file,"w");
-		print_r($C_dat) ;
+		//print_r($C_dat) ;
 		$C_dat["name"] .= $C_dat["Pos"] ;
 		unset($C_dat["Pos"]) ;
 		unset($C_dat["flug"]) ;
