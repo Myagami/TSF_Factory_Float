@@ -9,9 +9,10 @@ $Index = explode(",",$Index) ;
 $Index[9] = str_replace(array("\r\n","\n","\r"), '', $Index[9]) ;
 //Output
 foreach($csv as $dat){
-	//キーを渡す
+	//キーを割り振る
 	$dat = explode(",",$dat) ;
 	$C_dat = array_combine($Index,$dat) ;
+
 	print_r($C_dat) ;
 }
 ?>
