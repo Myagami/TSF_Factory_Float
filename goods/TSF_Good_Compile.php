@@ -16,7 +16,7 @@ foreach($csv as $dat){
 	if($C_dat["flug"] == 1 ){
 		//$fh = fopen("TSF_Goods_".$C_dat["name"].pak,"w");
 		print_r($C_dat) ;
-		foreach(){
+		foreach($C_dat as $key => $val){
 			
 		}
 
