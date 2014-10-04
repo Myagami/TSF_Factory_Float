@@ -1,0 +1,11 @@
+Obj=factory
+name=TSF_Factory_Main_Unit
+Location=Land
+DistributionWeight=1
+Productivity=1000
+Mapcolor=34
+OutputGood[0]=Arm_Unit(TSF_Parts)
+OutputCapacity[0]=500
+dims=1,1,1
+BackImage[0][0][0][0][0][0]=TSF_Factory_Main_Unit_Source.0.0
+
