@@ -25,7 +25,7 @@ foreach($csv as $dat){
 			fwrite($fh,"{$key}={$val}\n") ;
 		}
 		fclose($fh) ;
-		system('makeobj pak {$p_file} {$d_file}',$res ) ;
+		system("makeobj pak {$p_file} {$d_file}",$res ) ;
 	}
 }
 ?>
