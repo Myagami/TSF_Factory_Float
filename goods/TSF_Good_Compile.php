@@ -5,7 +5,7 @@ $Index = array_shift($csv) ;
 //print_r($csv) ;
 foreach($csv as $dat){
 	$dat = explode(",",$dat) ;
-	$dats = array_combine($Index,$dat) ;
-	print_r($dats)  ;
+	print_r($Index) ;
+	print_r($dat) ;
 }
 ?>
