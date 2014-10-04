@@ -14,6 +14,7 @@ foreach($csv as $dat){
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
 	if($C_dat["flug"] == 1 ){
+		//$fh = ;
 		print_r($C_dat) ;
 	}
 }
