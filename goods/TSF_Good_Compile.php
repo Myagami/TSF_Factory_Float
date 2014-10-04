@@ -14,16 +14,16 @@ foreach($csv as $dat){
 	$C_dat = array_combine($Index,$dat) ;
 	//出力判定
 	if($C_dat["flug"] == 1 ){
-		//$fh = fopen("TSF_Goods_".$C_dat["name"].pak,"w");
+		$fh = fopen("TSF_Goods_".$C_dat["name"].pak,"w");
 		print_r($C_dat) ;
 		$C_dat["name"] .= $C_dat["Pos"] ;
 		unset($C_dat["Pos"]) ;
 		unset($C_dat["flug"]) ;
 		foreach($C_dat as $key => $val){
-			//fwrite("{$key}={$val}\n",$fh) ;
+			fwrite("{$key}={$val}\n",$fh) ;
 		}
 
-		//fclose($fh) ;
+		fclose($fh) ;
 	}
 }
 ?>
