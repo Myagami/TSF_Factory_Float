@@ -13,7 +13,7 @@ InputCapacity[1]=2000
 InputFactor[1]=90
 #out
 OutputGood[0]=Assault_Gun(TSF_Tool)
-OutputCapacity[0]=500
+OutputCapacity[0]=700
 OutputGood[1]=LongSword(TSF_Tool)
 OutputCapacity[1]=300
 OutputGood[2]=ShortSword(TSF_Tool)
