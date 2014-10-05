@@ -1,0 +1,7 @@
+obj=good
+name=Control_Unit(TSF_Parts)
+metric=paletten
+catg=1
+value=200
+weight_per_unit=250
+speed_bonus=9
