@@ -7,6 +7,7 @@ Mapcolor=34
 #in
 InputGood[0]=Stahl
 InputCapacity[0]=800
+
 InputGood[1]=Curbon(TSF_Parts)
 InputCapacity[1]=1500
 #out
