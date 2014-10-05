@@ -15,6 +15,7 @@
 a / b → ハンガー(2種類あり) 
 
 ○日本語訳
+TSF-Factory.ja.tabをどうぞ
 
 M.Yagami
 
