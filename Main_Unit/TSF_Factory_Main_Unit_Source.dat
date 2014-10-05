@@ -5,7 +5,8 @@ DistributionWeight=1
 Productivity=1000
 Mapcolor=34
 InputGood[0]=Curbon(TSF_Parts)
-InputCapacity[0]=4000
+InputCapacity[0]=2000
+
 InputGood[1]=Stahl
 InputCapacity[1]=2000
 OutputGood[0]=Arm_Unit(TSF_Parts)
