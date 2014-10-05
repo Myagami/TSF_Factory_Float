@@ -10,7 +10,12 @@ InputCapacity[0]=800
 InputGood[1]=Curbon(TSF_Parts)
 InputCapacity[1]=1500
 #out
-#OutputGood[0]=Curbon(TSF_Parts)
+#OutputGood[0]=Assault_Gun(TSF_Parts)
+#OutputGood[1]=LongSword(TSF_Parts)
+#OutputGood[2]=ShortSword(TSF_Parts)
+#OutputGood[3]=Curbon(TSF_Parts)
+#OutputGood[4]=Curbon(TSF_Parts)
+#OutputGood[5]=Curbon(TSF_Parts)
 #
 OutputCapacity[0]=300
 dims=6,4,1
