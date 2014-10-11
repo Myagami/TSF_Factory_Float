@@ -1,0 +1,180 @@
+{
+    "comment": "This is a TileCutter Project file (JSON formatted). You may edit it by hand if you are careful.", 
+    "data": {
+        "dat": {
+            "dat_lump": "Obj=factory\r\nname=TSF_Factory_RE_Amemiya_TSF\r\nLocation=Land\r\nDistributionWeight=1\r\nProductivity=1000\r\nMapcolor=34\r\nInputGood[0]=Curbon(TSF_Parts)\r\nInputCapacity[0]=2000\r\nInputFactor[0]=180\r\nInputGood[1]=Stahl\r\nInputCapacity[1]=2000\r\nInputFactor[1]=80\r\nOutputGood[0]=Arm_Unit(TSF_Parts)\r\nOutputCapacity[0]=800\r\nOutputGood[1]=Head_Unit(TSF_Parts)\r\nOutputCapacity[1]=800\r\nOutputGood[2]=Jumping_Unit(TSF_Parts)\r\nOutputCapacity[2]=800\r\nOutputGood[3]=Reg_Unit(TSF_Parts)\r\nOutputCapacity[3]=800\r\nOutputGood[4]=Engine_Unit(TSF_Parts)\r\nOutputCapacity[4]=900\r\nOutputGood[5]=Control_Unit(TSF_Parts)\r\nOutputCapacity[5]=500"
+        }, 
+        "dims": {
+            "directions": 1, 
+            "frames": 1, 
+            "frontimage": 0, 
+            "paksize": 64, 
+            "winter": 0, 
+            "x": 4, 
+            "y": 6, 
+            "z": 1
+        }, 
+        "files": {
+            "datfile_location": "RE_Amemiya_TSF_Source.dat", 
+            "datfile_write": true, 
+            "pakfile_location": "", 
+            "pngfile_location": "RE_Amemiya_Source.png"
+        }, 
+        "images": [
+            [
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": "RE_Amemiya_TSF.png"
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ], 
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ]
+            ], 
+            [
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ], 
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ]
+            ], 
+            [
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ], 
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ]
+            ], 
+            [
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ], 
+                [
+                    [
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }, 
+                        {
+                            "offset": [
+                                0, 
+                                0
+                            ], 
+                            "path": ""
+                        }
+                    ]
+                ]
+            ]
+        ]
+    }, 
+    "type": "TCP_JSON", 
+    "version": "0.6.1"
+}
